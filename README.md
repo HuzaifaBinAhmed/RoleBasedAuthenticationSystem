@@ -44,12 +44,11 @@ Visual Studio 2022 or later
 1. Clone the repository
 git clone https://github.com/yourusername/RoleBasedAuthenticationSystem.git
 cd RoleBasedAuthenticationSystem
-2. Update the connection string in appsettings.json
+2. Create database and put the string in third step
+3. Update the connection string in appsettings.json
 "ConnectionStrings": {
     "DefaultConnection": "Server=YOUR_SERVER;Database=AuthDB;Trusted_Connection=True;"
 }
-3. Apply database migrations
-dotnet ef database update   
 4. Run the application
 dotnet run
 
